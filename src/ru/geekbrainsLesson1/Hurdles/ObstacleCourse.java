@@ -15,10 +15,10 @@ public class ObstacleCourse implements Hurdles {
         jumpAndRun.setSuccess(jumpAndRun.getMaxLength() >= length);
         if (jumpAndRun.getSuccess()) {
             Assert.assertTrue(jumpAndRun.getSuccess());
-            return "Участник " + jumpAndRun.getName() + " проходит дистанцию длиной " + length + " км.";
+            return "Участник " + jumpAndRun.getName() + " проходит дистанцию длиной " + length + " км";
         } else {
             Assert.assertFalse(jumpAndRun.getSuccess());
-            return "Участник " + jumpAndRun.getName() + " не проходит дистанцию длиной " + length + " км.";
+            return "Участник " + jumpAndRun.getName() + " не проходит дистанцию длиной " + length + " км";
         }
     }
 }

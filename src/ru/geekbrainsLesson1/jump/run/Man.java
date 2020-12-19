@@ -33,5 +33,4 @@ public class Man implements JumpAndRun {
     public void setSuccess(boolean success) {
         this.success = success;
     }
-
 }

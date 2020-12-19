@@ -18,9 +18,7 @@ public class Wall implements Hurdles {
             return "Участник " + jumpAndRun.getName() + " перепрыгнул стену высотой " + height + " м.";
         } else {
             Assert.assertFalse(jumpAndRun.getSuccess());
-            return "ИУчастник " + jumpAndRun.getName() + " не перепрыгнул стену высотой " + height + " м.;
+            return "ИУчастник " + jumpAndRun.getName() + " не перепрыгнул стену высотой " + height + " м.";
         }
     }
-
-
 }

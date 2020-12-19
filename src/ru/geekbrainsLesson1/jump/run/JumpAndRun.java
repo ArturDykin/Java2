@@ -15,5 +15,4 @@ public interface JumpAndRun {
     String runStr();
 
     String jumpStr();
-
 }

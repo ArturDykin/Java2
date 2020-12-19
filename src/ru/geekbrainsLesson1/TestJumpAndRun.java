@@ -9,7 +9,6 @@ import ru.geekbrainsLesson1.Hurdles.Hurdles;
 import ru.geekbrainsLesson1.Hurdles.ObstacleCourse;
 import ru.geekbrainsLesson1.Hurdles.Wall;
 
-
 class TestJumpAndRun {
 
     @Test

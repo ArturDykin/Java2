@@ -34,5 +34,4 @@ public class Robot implements JumpAndRun {
     public void setSuccess(boolean success) {
         this.success = success;
     }
-
 }
