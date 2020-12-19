@@ -19,7 +19,6 @@ public class Robot implements JumpAndRun {
         return name + " может прыгнуть: " + maxHeight + " м";
     }
 
-
     public String getName() {
         return name;
     }

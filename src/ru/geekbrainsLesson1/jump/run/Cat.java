@@ -35,4 +35,5 @@ public class Cat implements JumpAndRun {
     public void setSuccess(boolean success) {
         this.success = success;
     }
+
 }

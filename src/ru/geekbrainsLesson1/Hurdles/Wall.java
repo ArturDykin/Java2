@@ -15,10 +15,10 @@ public class Wall implements Hurdles {
         jumpAndRun.setSuccess(jumpAndRun.getMaxHeight() >= height);
         if (jumpAndRun.getSuccess()) {
             Assert.assertTrue(jumpAndRun.getSuccess());
-            return "Участник " + jumpAndRun.getName() + " перепрыгнул стену высотой " + height + " м";
+            return "Участник " + jumpAndRun.getName() + " перепрыгнул стену высотой " + height + " м.";
         } else {
             Assert.assertFalse(jumpAndRun.getSuccess());
-            return "ИУчастник " + jumpAndRun.getName() + " не перепрыгнул стену высотой " + height + " м";
+            return "ИУчастник " + jumpAndRun.getName() + " не перепрыгнул стену высотой " + height + " м.;
         }
     }
 
