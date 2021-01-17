@@ -52,5 +52,4 @@ public class Main {
         o.runOneThread();
         o.runTwoThreads();
     }
-
 }
